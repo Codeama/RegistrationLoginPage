@@ -21,7 +21,12 @@
 
 .App-loginbox{
   display: flex;
-  width: 100%;
+  justify-content: center;
+  
+}
+
+.App-loginbox div{
+  margin: 5px;
 }
 
 .App-link {

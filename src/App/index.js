@@ -33,11 +33,8 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          
-            Login/Registration
-         
         </header>
-        <div className="loginbox">
+        <div className="App-loginbox">
           <div onClick={this.showLogin}>Login</div>
           <div onClick={this.showRegistration}>Register</div>
         </div>
